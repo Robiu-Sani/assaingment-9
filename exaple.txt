@@ -1,0 +1,20 @@
+.env.local
+VITE_APIKEY = AIzaSyDm8zwHhR3mo5a7fTkgLbfS6NGfkl78j4g
+VITE_AUTHDOMAIN = assaignment-9-d0328.firebaseapp.com
+VITE_PROJECTID = assaignment-9-d0328
+VITE_STORAGEBUCKET = assaignment-9-d0328.appspot.com
+VITE_MESSAGINGSENDERID = 192725168467
+VITE_APPID = 1:192725168467:web:e085d81a098dbe3da731a6
+VITE_MEASUREMENTID = G-2PZ6WCLWEC
+
+
+firebase gating value from .env.local
+const firebaseConfig = {
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
+  measurementId: import.meta.env.VITE_MEASUREMENTID
+};

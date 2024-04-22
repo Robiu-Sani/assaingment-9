@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    transition: .5s;
+}
+.bgImg1{
+    background: linear-gradient(rgba(10, 110, 35, 0.788),rgba(8, 104, 40, 0.705)),url('images/7.jpg');
+}
+.bgImg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btre{
+    border: 1px solid red !important;
+}
+.bgCard{
+    background: rgba(255, 255, 255, 0.705);
+}
+.bdrb{
+    border-bottom: 1px solid rgb(0, 139, 70);
+}
+.bgroundRight{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bgroundLeft{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.border1{
+    border: 2px solid green;
+    border-radius: 20px;
+    z-index: -10px;
+}
+.btre{
+    border: 1px solid red;
+}
+.name{
+    font-size: 0px;
+}
+.imageHover:hover ~.name{
+    font-size: 18px ;
+}
+.custombtn{
+    background: transparent;
+}
+.sizefooter{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
