@@ -1,6 +1,6 @@
 # Haven Ease
 this website is type of residential <br/>
--live link => 
+-live link => https://spiffy-pie-b672f0.netlify.app/
 ![live site image](https://i.ibb.co/r2BRFWz/Screenshot-613.png)
 
 -  You can find your drean in our website in estates
